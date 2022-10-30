@@ -18,7 +18,7 @@ class NewsItemPolicy
      */
     public function viewAny(User $user)
     {
-        //
+        return true;
     }
 
     /**
@@ -30,7 +30,7 @@ class NewsItemPolicy
      */
     public function view(User $user, NewsItem $newsItem)
     {
-        //
+        return true;
     }
 
     /**
@@ -41,7 +41,7 @@ class NewsItemPolicy
      */
     public function create(User $user)
     {
-        //
+        return true;
     }
 
     /**
@@ -53,7 +53,7 @@ class NewsItemPolicy
      */
     public function update(User $user, NewsItem $newsItem)
     {
-        //
+        return true;
     }
 
     /**
@@ -65,7 +65,7 @@ class NewsItemPolicy
      */
     public function delete(User $user, NewsItem $newsItem)
     {
-        //
+        return true;
     }
 
     /**
@@ -77,7 +77,7 @@ class NewsItemPolicy
      */
     public function restore(User $user, NewsItem $newsItem)
     {
-        //
+        return true;
     }
 
     /**
@@ -89,6 +89,6 @@ class NewsItemPolicy
      */
     public function forceDelete(User $user, NewsItem $newsItem)
     {
-        //
+        return true;
     }
 }
